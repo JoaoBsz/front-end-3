@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --colorForm: hsl(259, 47%, 19%);
+  --buttonColor: #36ce7d;
+  --inputColor: #4a4a4d;
+
+  font-size: 62.5%;
+
+}
+
+
+body {
+  background: black
+}
+
+
+.App {
+  height: 100%;
+  font-family: 'Poppins';
+  font-size: 2rem;
+  color: white;
+
+  text-align: center;
+
+  overflow: overlay;
+
+}
+
+form {
+  width: 110rem;
+  height: 20.9rem;
+  max-width: 96rem;
+  margin-left:20rem;
+  margin-right: 20rem;
+  margin-top: 8.4rem;
+  border-radius: 1.2rem;
+
+  background-color: var(--colorForm);
+}
+
+.formError {
+  border: 1px solid #fa3e3e9f;
+  background-color: #221515;
+}
+
+.formError select { 
+  border: 1px solid #fa3e3e9f;
+  background-color: #221515;
+}
+
+h1{
+  font-size: 2.5rem;
+  margin-right: 63rem;
+
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container-form {
+  display: grid;
+  grid-template-columns: 40rem 50rem;
+  padding-left: 2rem;
+  align-items: center;
+
+  width: 90;
+
+}
+
+
+.container-form select {
+  height: 3rem;
+  padding-left: 1.5rem;
+  color: #ffffff;
+  background-color:var(--inputColor);
+
+  border-radius: 1.2rem;
+  border: 0;
+}
+
+
+.container-form input {
+  height: 3rem;
+  background-color:var(--inputColor);
+  border-radius: 1.2rem;
+  border: 0;
+}
+
+.container-form .description {
+  padding-left: 1.5rem;
+  margin-left: 3rem;
+  color: #ffffff;
+}
+
+.container-form label:nth-child(n){
+  display: inline;
+  font-size: 1rem;
+  color: #ffffff67;
+  padding-right: 35rem;
+}
+
+.container-form label:nth-child(2){
+  padding-right: 0.1rem;
+}
+
+.container-form label:nth-child(2) div {
+  display: inline;
+  padding-left: 36rem;
+}
+
+.contador-caracteres-error{
+  color: #f73030a2;
+}
+
+.contador-caracteres span:nth-child(n){
+  color: #ffffff67;;
+}
+
+
+.container-form .button{
+  width: 20rem;
+  height: 4rem;
+  margin-left: 70rem;
+  margin-top: 1rem;
+
+  background-color:var(--buttonColor);
+  border-radius: 1.2rem;
+  border: 0;
+}
+
+.error {
+  padding-top: .5rem;
+  color: #f73030a2;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container-list-error {
+  display: flex;
+  flex-flow: row wrap;
+  width: 30rem;
+  margin-left: 21rem;
+}

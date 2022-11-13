@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --colorForm: #281a47;
+
+  font-size: 62.5%;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+
+    margin-left: 5rem;
+} 
+
+.containerCard{
+    position: relative;
+    height: 33rem;
+    width: 30rem;
+    margin-left: 20rem;
+    align-items: center;
+}
+
+.title{
+    padding-left: 9.5rem;
+}
+
+img {
+    display: block;
+    width: 30rem;
+    height: 15rem;
+
+    border-radius: 1.2rem;
+}
+
+.containerText{
+    width: 30rem;
+    height: 5rem;
+    font-size: 1.1rem;
+    padding-top: 0.7rem;
+    background: #281a47;
+
+    border-radius: 1.2rem;
+}
